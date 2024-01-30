@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login/signup</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="main">
+        <input type="checkbox" id ="check" aria-hidden="true">
+        <div class="signup">
+            <form action="/">
+                <label for="check" aria-hidden="true">Sign up</label>
+                <input type="text" name="firstName" placeholder="first name" required>
+                <input type="text" name="middleName" placeholder="middle name">
+                <input type="text" name="lastName" placeholder="last name" required>
+                <input type="email" name="email" id="" placeholder="Email" required>
+                <input type="number" name="mobileNumber" id="" placeholder="Mobile number" requires>
+                <input type="password" name="pwd" placeholder="password" id="" required>
+                <input type="password" name="pwd" placeholder="confirm password" id="" required>
+                <button>Sign up</button>
+            </form> 
+        </div>
+        <div class="login">
+            <form action="/">
+                <label for="check" aria-hidden="true">Login</label>
+                <input type="text" name="email" id="" placeholder="Email" required>
+                <input type="password" name="pwd" id="" placeholder="Password" required>
+                <button>Login</button>
+                <p>Dont have an account?<a href="#">Create account</a></p>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
